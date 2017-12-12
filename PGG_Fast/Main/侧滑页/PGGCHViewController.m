@@ -10,6 +10,9 @@
 #import "PGGTool.h"
 #import "PGGButton.h"
 #import "PGGTableViewCell.h"
+#import "PGGCityViewController.h"
+#import "PGGFindViewController.h"
+#import <UIViewController+MMDrawerController.h>
 
 static NSString *PGGTableCellID = @"https://github.com/penghero";
 @interface PGGCHViewController ()<UITableViewDataSource,UITableViewDelegate>
@@ -157,6 +160,37 @@ static NSString *PGGTableCellID = @"https://github.com/penghero";
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 50;
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+//    通过indexPath.row 判定选中的cell 进行各自的页面跳转
+    switch (indexPath.row) {
+        case 0:{
+            PGGCityViewController *city = [[PGGCityViewController alloc] init];
+                //拿到我们的导航控制器，让它去push
+            UINavigationController* nav = (UINavigationController*)self.mm_drawerController.centerViewController;
+            [nav pushViewController:city animated:NO];
+                //当我们push成功之后，关闭我们的抽屉
+            [self.mm_drawerController closeDrawerAnimated:YES completion:^(BOOL finished) {
+                    //设置打开抽屉模式为MMOpenDrawerGestureModeNone，也就是没有任何效果。
+                [self.mm_drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeNone];
+            }];
+            break;
+        }
+        case 1:{
+            PGGFindViewController *find = [[PGGFindViewController alloc] init];
+            UINavigationController* nav = (UINavigationController*)self.mm_drawerController.centerViewController;
+            [nav pushViewController:find animated:NO];
+            [self.mm_drawerController closeDrawerAnimated:YES completion:^(BOOL finished) {
+                [self.mm_drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeNone];
+            }];
+            break;
+        }
+        default:
+            break;
+    }
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
