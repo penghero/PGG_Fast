@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2017年 penggege.CP. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W4r-cL-cqQ">
+                                <rect key="frame" x="0.0" y="637" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="EHW-s7-caJ"/>
+                                    <constraint firstAttribute="width" constant="375" id="ekB-lx-NKR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="代码地址:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5j-kP-peB">
+                                <rect key="frame" x="0.0" y="583" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9lc-gq-T26"/>
+                                    <constraint firstAttribute="width" constant="375" id="sPF-0x-BpH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="鹏哥哥Fast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yq0-qG-fTJ">
+                                <rect key="frame" x="0.0" y="149" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8wQ-1L-wet"/>
+                                    <constraint firstAttribute="width" constant="375" id="edK-iA-K8M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="W4r-cL-cqQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="4L6-cb-C7j"/>
+                            <constraint firstItem="u5j-kP-peB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="98W-7W-zv1"/>
+                            <constraint firstItem="W4r-cL-cqQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Bz7-mH-cQG"/>
+                            <constraint firstItem="yq0-qG-fTJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="I3E-y5-O8N"/>
+                            <constraint firstItem="u5j-kP-peB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Lnv-Xc-zOw"/>
+                            <constraint firstItem="W4r-cL-cqQ" firstAttribute="top" secondItem="u5j-kP-peB" secondAttribute="bottom" constant="24" id="MVP-2j-kzQ"/>
+                            <constraint firstItem="W4r-cL-cqQ" firstAttribute="top" secondItem="u5j-kP-peB" secondAttribute="bottom" constant="24" id="a62-ek-GlZ"/>
+                            <constraint firstItem="yq0-qG-fTJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cvz-3D-y4o"/>
+                            <constraint firstItem="yq0-qG-fTJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="129" id="dIS-dn-eaL"/>
+                            <constraint firstItem="W4r-cL-cqQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fGY-be-k6F"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>

@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		079C7B30CAD336C424B5A8EA /* libPods-PGG_Fast.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C44B488970EDD94AD04700D /* libPods-PGG_Fast.a */; };
+		7435F1B71FDF57EF00B39107 /* PGGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7435F1B61FDF57EF00B39107 /* PGGButton.m */; };
+		7435F1C01FDF641D00B39107 /* PGGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7435F1BE1FDF641D00B39107 /* PGGTableViewCell.m */; };
+		7435F1C11FDF641D00B39107 /* PGGTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7435F1BF1FDF641D00B39107 /* PGGTableViewCell.xib */; };
 		74BA63901FDE074700AC67CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA638F1FDE074700AC67CD /* AppDelegate.m */; };
-		74BA63931FDE074700AC67CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA63921FDE074700AC67CD /* ViewController.m */; };
 		74BA63961FDE074700AC67CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BA63941FDE074700AC67CD /* Main.storyboard */; };
 		74BA63981FDE074700AC67CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BA63971FDE074700AC67CD /* Assets.xcassets */; };
 		74BA639B1FDE074700AC67CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BA63991FDE074700AC67CD /* LaunchScreen.storyboard */; };
 		74BA639E1FDE074700AC67CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA639D1FDE074700AC67CD /* main.m */; };
 		74BA63A81FDE074700AC67CD /* PGG_FastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA63A71FDE074700AC67CD /* PGG_FastTests.m */; };
 		74BA63B31FDE074700AC67CD /* PGG_FastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA63B21FDE074700AC67CD /* PGG_FastUITests.m */; };
+		74BA63CA1FDE605F00AC67CD /* UIView+LLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA63C11FDE605F00AC67CD /* UIView+LLSegmentBar.m */; };
+		74BA63CC1FDE605F00AC67CD /* LLSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA63C61FDE605F00AC67CD /* LLSegmentBarConfig.m */; };
+		74BA63CD1FDE605F00AC67CD /* LLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA63C81FDE605F00AC67CD /* LLSegmentBar.m */; };
+		74BA63CE1FDE605F00AC67CD /* LLSegmentBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA63C91FDE605F00AC67CD /* LLSegmentBarVC.m */; };
+		74BA63D11FDE658600AC67CD /* PGGMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA63D01FDE658600AC67CD /* PGGMainViewController.m */; };
+		74BA63D41FDE659800AC67CD /* PGGCHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA63D31FDE659800AC67CD /* PGGCHViewController.m */; };
+		74BA63D71FDE660700AC67CD /* PGGFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA63D61FDE660700AC67CD /* PGGFollowViewController.m */; };
+		74BA63DA1FDE662300AC67CD /* PGGFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA63D91FDE662300AC67CD /* PGGFindViewController.m */; };
+		74BA63DD1FDE662F00AC67CD /* PGGCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA63DC1FDE662F00AC67CD /* PGGCityViewController.m */; };
+		74BA63E11FDE714000AC67CD /* PGGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA63E01FDE714000AC67CD /* PGGTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C44B488970EDD94AD04700D /* libPods-PGG_Fast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PGG_Fast.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7435F1B51FDF57EF00B39107 /* PGGButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGButton.h; sourceTree = "<group>"; };
+		7435F1B61FDF57EF00B39107 /* PGGButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGButton.m; sourceTree = "<group>"; };
+		7435F1BD1FDF641D00B39107 /* PGGTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGTableViewCell.h; sourceTree = "<group>"; };
+		7435F1BE1FDF641D00B39107 /* PGGTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGTableViewCell.m; sourceTree = "<group>"; };
+		7435F1BF1FDF641D00B39107 /* PGGTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PGGTableViewCell.xib; sourceTree = "<group>"; };
 		74BA638B1FDE074700AC67CD /* PGG_Fast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGG_Fast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BA638E1FDE074700AC67CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74BA638F1FDE074700AC67CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		74BA63911FDE074700AC67CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74BA63921FDE074700AC67CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		74BA63951FDE074700AC67CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74BA63971FDE074700AC67CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74BA639A1FDE074700AC67CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +68,29 @@
 		74BA63AE1FDE074700AC67CD /* PGG_FastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PGG_FastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BA63B21FDE074700AC67CD /* PGG_FastUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGG_FastUITests.m; sourceTree = "<group>"; };
 		74BA63B41FDE074700AC67CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74BA63C11FDE605F00AC67CD /* UIView+LLSegmentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LLSegmentBar.m"; sourceTree = "<group>"; };
+		74BA63C21FDE605F00AC67CD /* LLSegmentBarConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSegmentBarConfig.h; sourceTree = "<group>"; };
+		74BA63C31FDE605F00AC67CD /* LLSegmentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSegmentBar.h; sourceTree = "<group>"; };
+		74BA63C41FDE605F00AC67CD /* LLSegmentBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSegmentBarVC.h; sourceTree = "<group>"; };
+		74BA63C61FDE605F00AC67CD /* LLSegmentBarConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSegmentBarConfig.m; sourceTree = "<group>"; };
+		74BA63C71FDE605F00AC67CD /* UIView+LLSegmentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LLSegmentBar.h"; sourceTree = "<group>"; };
+		74BA63C81FDE605F00AC67CD /* LLSegmentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSegmentBar.m; sourceTree = "<group>"; };
+		74BA63C91FDE605F00AC67CD /* LLSegmentBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSegmentBarVC.m; sourceTree = "<group>"; };
+		74BA63CF1FDE658600AC67CD /* PGGMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGMainViewController.h; sourceTree = "<group>"; };
+		74BA63D01FDE658600AC67CD /* PGGMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGMainViewController.m; sourceTree = "<group>"; };
+		74BA63D21FDE659800AC67CD /* PGGCHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGCHViewController.h; sourceTree = "<group>"; };
+		74BA63D31FDE659800AC67CD /* PGGCHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGCHViewController.m; sourceTree = "<group>"; };
+		74BA63D51FDE660700AC67CD /* PGGFollowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGFollowViewController.h; sourceTree = "<group>"; };
+		74BA63D61FDE660700AC67CD /* PGGFollowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGFollowViewController.m; sourceTree = "<group>"; };
+		74BA63D81FDE662300AC67CD /* PGGFindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGFindViewController.h; sourceTree = "<group>"; };
+		74BA63D91FDE662300AC67CD /* PGGFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGFindViewController.m; sourceTree = "<group>"; };
+		74BA63DB1FDE662F00AC67CD /* PGGCityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGCityViewController.h; sourceTree = "<group>"; };
+		74BA63DC1FDE662F00AC67CD /* PGGCityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGCityViewController.m; sourceTree = "<group>"; };
+		74BA63DE1FDE6A1300AC67CD /* PGGPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGPrefixHeader.pch; sourceTree = "<group>"; };
+		74BA63DF1FDE714000AC67CD /* PGGTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGTool.h; sourceTree = "<group>"; };
+		74BA63E01FDE714000AC67CD /* PGGTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGTool.m; sourceTree = "<group>"; };
+		9D3352BCC1F1A006CD9FE5C9 /* Pods-PGG_Fast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGG_Fast.release.xcconfig"; path = "Pods/Target Support Files/Pods-PGG_Fast/Pods-PGG_Fast.release.xcconfig"; sourceTree = "<group>"; };
+		D59AA8F05F2869B890133B2C /* Pods-PGG_Fast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGG_Fast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PGG_Fast/Pods-PGG_Fast.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079C7B30CAD336C424B5A8EA /* libPods-PGG_Fast.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +119,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CE051E2B4F4E54E2E1C0119 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C44B488970EDD94AD04700D /* libPods-PGG_Fast.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C1555CF7BE29DD89E31F86E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D59AA8F05F2869B890133B2C /* Pods-PGG_Fast.debug.xcconfig */,
+				9D3352BCC1F1A006CD9FE5C9 /* Pods-PGG_Fast.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		74BA63821FDE074700AC67CD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +143,8 @@
 				74BA63A61FDE074700AC67CD /* PGG_FastTests */,
 				74BA63B11FDE074700AC67CD /* PGG_FastUITests */,
 				74BA638C1FDE074700AC67CD /* Products */,
+				4C1555CF7BE29DD89E31F86E /* Pods */,
+				2CE051E2B4F4E54E2E1C0119 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +161,11 @@
 		74BA638D1FDE074700AC67CD /* PGG_Fast */ = {
 			isa = PBXGroup;
 			children = (
-				74BA638E1FDE074700AC67CD /* AppDelegate.h */,
-				74BA638F1FDE074700AC67CD /* AppDelegate.m */,
-				74BA63911FDE074700AC67CD /* ViewController.h */,
-				74BA63921FDE074700AC67CD /* ViewController.m */,
-				74BA63941FDE074700AC67CD /* Main.storyboard */,
-				74BA63971FDE074700AC67CD /* Assets.xcassets */,
-				74BA63991FDE074700AC67CD /* LaunchScreen.storyboard */,
-				74BA639C1FDE074700AC67CD /* Info.plist */,
-				74BA639D1FDE074700AC67CD /* main.m */,
+				74BA63E51FDE74AC00AC67CD /* Tool */,
+				74BA63E41FDE745400AC67CD /* source */,
+				74BA63E31FDE743800AC67CD /* Main */,
+				74BA63E21FDE742C00AC67CD /* Delegate */,
+				74BA63C01FDE605F00AC67CD /* LLSegment */,
 			);
 			path = PGG_Fast;
 			sourceTree = "<group>";
@@ -132,6 +188,82 @@
 			path = PGG_FastUITests;
 			sourceTree = "<group>";
 		};
+		74BA63C01FDE605F00AC67CD /* LLSegment */ = {
+			isa = PBXGroup;
+			children = (
+				74BA63C31FDE605F00AC67CD /* LLSegmentBar.h */,
+				74BA63C81FDE605F00AC67CD /* LLSegmentBar.m */,
+				74BA63C21FDE605F00AC67CD /* LLSegmentBarConfig.h */,
+				74BA63C61FDE605F00AC67CD /* LLSegmentBarConfig.m */,
+				74BA63C41FDE605F00AC67CD /* LLSegmentBarVC.h */,
+				74BA63C91FDE605F00AC67CD /* LLSegmentBarVC.m */,
+				74BA63C71FDE605F00AC67CD /* UIView+LLSegmentBar.h */,
+				74BA63C11FDE605F00AC67CD /* UIView+LLSegmentBar.m */,
+			);
+			path = LLSegment;
+			sourceTree = "<group>";
+		};
+		74BA63E21FDE742C00AC67CD /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				74BA638E1FDE074700AC67CD /* AppDelegate.h */,
+				74BA638F1FDE074700AC67CD /* AppDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		74BA63E31FDE743800AC67CD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				74BA63E61FDE750A00AC67CD /* 侧滑页 */,
+				74BA63CF1FDE658600AC67CD /* PGGMainViewController.h */,
+				74BA63D01FDE658600AC67CD /* PGGMainViewController.m */,
+				74BA63D51FDE660700AC67CD /* PGGFollowViewController.h */,
+				74BA63D61FDE660700AC67CD /* PGGFollowViewController.m */,
+				74BA63D81FDE662300AC67CD /* PGGFindViewController.h */,
+				74BA63D91FDE662300AC67CD /* PGGFindViewController.m */,
+				74BA63DB1FDE662F00AC67CD /* PGGCityViewController.h */,
+				74BA63DC1FDE662F00AC67CD /* PGGCityViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		74BA63E41FDE745400AC67CD /* source */ = {
+			isa = PBXGroup;
+			children = (
+				74BA63941FDE074700AC67CD /* Main.storyboard */,
+				74BA63971FDE074700AC67CD /* Assets.xcassets */,
+				74BA63991FDE074700AC67CD /* LaunchScreen.storyboard */,
+				74BA639C1FDE074700AC67CD /* Info.plist */,
+				74BA639D1FDE074700AC67CD /* main.m */,
+				74BA63DE1FDE6A1300AC67CD /* PGGPrefixHeader.pch */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		74BA63E51FDE74AC00AC67CD /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				74BA63DF1FDE714000AC67CD /* PGGTool.h */,
+				74BA63E01FDE714000AC67CD /* PGGTool.m */,
+				7435F1B51FDF57EF00B39107 /* PGGButton.h */,
+				7435F1B61FDF57EF00B39107 /* PGGButton.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		74BA63E61FDE750A00AC67CD /* 侧滑页 */ = {
+			isa = PBXGroup;
+			children = (
+				74BA63D21FDE659800AC67CD /* PGGCHViewController.h */,
+				74BA63D31FDE659800AC67CD /* PGGCHViewController.m */,
+				7435F1BD1FDF641D00B39107 /* PGGTableViewCell.h */,
+				7435F1BE1FDF641D00B39107 /* PGGTableViewCell.m */,
+				7435F1BF1FDF641D00B39107 /* PGGTableViewCell.xib */,
+			);
+			path = "侧滑页";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74BA63B71FDE074700AC67CD /* Build configuration list for PBXNativeTarget "PGG_Fast" */;
 			buildPhases = (
+				47E1EEE243327889D1583C3D /* [CP] Check Pods Manifest.lock */,
 				74BA63871FDE074700AC67CD /* Sources */,
 				74BA63881FDE074700AC67CD /* Frameworks */,
 				74BA63891FDE074700AC67CD /* Resources */,
+				3B2EA2CF17885DE2FA9C82FA /* [CP] Embed Pods Frameworks */,
+				11A2B8437350831F48A63518 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,6 +375,7 @@
 			files = (
 				74BA639B1FDE074700AC67CD /* LaunchScreen.storyboard in Resources */,
 				74BA63981FDE074700AC67CD /* Assets.xcassets in Resources */,
+				7435F1C11FDF641D00B39107 /* PGGTableViewCell.xib in Resources */,
 				74BA63961FDE074700AC67CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,14 +396,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11A2B8437350831F48A63518 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PGG_Fast/Pods-PGG_Fast-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PGG_Fast/Pods-PGG_Fast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B2EA2CF17885DE2FA9C82FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PGG_Fast/Pods-PGG_Fast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47E1EEE243327889D1583C3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PGG_Fast-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		74BA63871FDE074700AC67CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74BA63931FDE074700AC67CD /* ViewController.m in Sources */,
+				74BA63D71FDE660700AC67CD /* PGGFollowViewController.m in Sources */,
+				74BA63CC1FDE605F00AC67CD /* LLSegmentBarConfig.m in Sources */,
+				7435F1C01FDF641D00B39107 /* PGGTableViewCell.m in Sources */,
+				74BA63CA1FDE605F00AC67CD /* UIView+LLSegmentBar.m in Sources */,
+				74BA63DA1FDE662300AC67CD /* PGGFindViewController.m in Sources */,
+				74BA63E11FDE714000AC67CD /* PGGTool.m in Sources */,
+				74BA63DD1FDE662F00AC67CD /* PGGCityViewController.m in Sources */,
+				7435F1B71FDF57EF00B39107 /* PGGButton.m in Sources */,
 				74BA639E1FDE074700AC67CD /* main.m in Sources */,
+				74BA63D11FDE658600AC67CD /* PGGMainViewController.m in Sources */,
 				74BA63901FDE074700AC67CD /* AppDelegate.m in Sources */,
+				74BA63D41FDE659800AC67CD /* PGGCHViewController.m in Sources */,
+				74BA63CD1FDE605F00AC67CD /* LLSegmentBar.m in Sources */,
+				74BA63CE1FDE605F00AC67CD /* LLSegmentBarVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +629,14 @@
 		};
 		74BA63B81FDE074700AC67CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59AA8F05F2869B890133B2C /* Pods-PGG_Fast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5K6RS22WJ;
-				INFOPLIST_FILE = PGG_Fast/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PGG_Fast/source/PGGPrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/PGG_Fast/source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.penggege.PGG-Fast";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,11 +646,14 @@
 		};
 		74BA63B91FDE074700AC67CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D3352BCC1F1A006CD9FE5C9 /* Pods-PGG_Fast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5K6RS22WJ;
-				INFOPLIST_FILE = PGG_Fast/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PGG_Fast/source/PGGPrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/PGG_Fast/source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.penggege.PGG-Fast";
 				PRODUCT_NAME = "$(TARGET_NAME)";
